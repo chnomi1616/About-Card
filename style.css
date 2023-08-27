@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 52.2%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  background-color: #e5e5e5;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* position: relative; */
+  width: 500px;
+  height: 620px;
+  padding: 2rem 5rem;
+  background-color: white;
+  border-radius: 1rem;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+h1 {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  display: flex;
+  font-weight: bold;
+  font-size: 32px;
+}
+p {
+  margin-top: 22px;
+  margin-bottom: 0px;
+  margin-left: 7px;
+  font-size: 15px;
+  font-size: 18px;
+}
+.box {
+  margin-top: -21px;
+  margin-bottom: 4px;
+  margin-left: 351px;
+  border: 2px solid#BBC2FF;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 13px;
+  margin-right: -31px;
+  color: #5c69e1;
+  font-size: 18px;
+}
+.set {
+  width: 0px;
+  height: 0px;
+}
+.img {
+  margin-top: 12px;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+}
+.dispa {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.dis {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3px;
+}
+
+.mary {
+  font-size: 24px;
+}
+.mem {
+  font-size: 18px;
+}
+.pad {
+  padding: 4px;
+
+  padding-right: 15px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 11px;
+  outline: 0;
+  border: 0;
+  background: none;
+  border: 1px solid #d9d9d9;
+  padding: 10px 0px;
+  margin-bottom: -4px;
+  color: #515151;
+  width: 111px;
+  font-family: inherit;
+  margin-right: 5px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #0c1033;
+  color: #fff;
+  height: 45px;
+  justify-content: flex-end;
+  justify-content: center;
+  font-size: 18px;
+}
+.fra {
+  width: 19px;
+  height: 19px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.display {
+  display: flex;
+}
+
+.wd-100p {
+  width: 100%;
+}
